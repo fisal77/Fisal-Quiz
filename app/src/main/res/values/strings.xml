@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Fisal Quiz</string>
+
+    <string name="Question1_text">Q1: Who is the java programming language founder ?</string>
+    <string name="Q1_A_answer">James Gosling</string>
+    <string name="Q1_B_answer">Jiff Martin</string>
+    <string name="Q1_C_answer">Carlos Bong</string>
+
+
+    <string name="Question2_text">Q2: Who is the Microsoft founder ?</string>
+    <string name="Q2_A_answer">Fisal Assubaieye</string>
+    <string name="Q2_B_answer">Bill Gates</string>
+    <string name="Q2_C_answer">James Gosling</string>
+
+    <string name="Question3_text">Q3: What is the latest Android version/codename ?</string>
+    <string name="Q3_A_answer">Android 4.4 KitKat (API 19)</string>
+    <string name="Q3_B_answer">Android 7.0 Nougat (API 24)</string>
+    <string name="Q3_C_answer">Android 8.1 Oreo (API 27)</string>
+
+    <string name="Question4_text">Q4: What is the most popular web search engine ?</string>
+
+    <string name="Question5_text">Q5: What is/are three countries located in Europe ? </string>
+    <string name="Q5_A_answer">Spain</string>
+    <string name="Q5_B_answer">Germany</string>
+    <string name="Q5_C_answer">France</string>
+    <string name="Q5_D_answer">All the above countries is not in Europe.</string>
+
+    <string name="Submit_Quiz_txt">Get Result!</string>
+
+</resources>

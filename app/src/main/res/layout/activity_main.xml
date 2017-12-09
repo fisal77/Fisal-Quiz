@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fisal.fisalquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Question1_text"
+            android:paddingTop="20dp"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <RadioGroup
+            android:id="@+id/Question1_answer_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- correct answer is A -->
+            <RadioButton
+                android:id="@+id/Q1_A_answer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Q1_A_answer" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Q1_B_answer" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Q1_C_answer" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Question2_text"
+            android:paddingTop="20dp"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimaryDark"  />
+
+        <RadioGroup
+            android:id="@+id/Question2_answer_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Q2_A_answer" />
+
+            <!-- correct answer is B -->
+            <RadioButton
+                android:id="@+id/Q2_B_answer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Q2_B_answer" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Q2_C_answer" />
+
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Question3_text"
+            android:paddingTop="20dp"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimaryDark"  />
+
+        <RadioGroup
+            android:id="@+id/Question3_answer_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Q3_A_answer" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Q3_B_answer" />
+
+            <!-- correct answer is C -->
+            <RadioButton
+                android:id="@+id/Q3_C_answer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Q3_C_answer" />
+
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Question4_text"
+            android:paddingTop="20dp"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimaryDark"  />
+
+        <!-- correct answer is Google -->
+        <EditText
+            android:id="@+id/Q4_answer"
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Question5_text"
+            android:paddingTop="20dp"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimaryDark"  />
+
+        <CheckBox
+            android:id="@+id/Q5_A_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q5_A_answer" />
+
+        <CheckBox
+            android:id="@+id/Q5_B_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q5_B_answer" />
+
+        <CheckBox
+            android:id="@+id/Q5_C_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q5_C_answer" />
+
+        <CheckBox
+            android:id="@+id/Q5_D_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q5_D_answer" />
+
+
+        <Button
+            android:id="@+id/Submit_Quiz_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="submitQuiz"
+            android:text="@string/Submit_Quiz_txt"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
