@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         EditText question4_answer = (EditText) findViewById(R.id.Q4_answer);
         // get user text input
-        String has_Q4_correct = question4_answer.getText().toString();
+        String has_Q4_correct = question4_answer.getText().toString().trim();
 
         CheckBox q5_A_answer = (CheckBox) findViewById(R.id.Q5_A_answer);
         // Check user answer if he checked the box and assign to boolean
@@ -92,8 +92,8 @@ public class MainActivity extends AppCompatActivity {
             grade ++;
         }
 
-        // check if user select the right checkboxes as all are correct answers even the last one D.
-        if ((Q5_A_grade) && (Q5_B_grade) && (Q5_C_grade) || (Q5_D_grade) ) {
+        // check if user select the right checkboxes as all are correct answers exclude the last one D.
+        if ((Q5_A_grade) && (Q5_B_grade) && (Q5_C_grade) && !(Q5_D_grade) ) {
             grade ++ ;
         }
 
